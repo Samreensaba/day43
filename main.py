@@ -1,6 +1,11 @@
-import random
+import random, os
+
+os.system("clear")
+
 
 title = "MY Bingo Cards Generator"
+
+print(f"{title: ^50}")
 
 numbers = []
 
